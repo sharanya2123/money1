@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+@media screen and (min-weight: 768px) {
+  .money-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.balance-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ecfccb;
+  width: 100%;
+  border: 1 px solid #84cc16;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .balance-container {
+    width: 30%;
+    margin-right: 0px;
+  }
+}
+.details-img {
+  width: 64px;
+  height: 64px;
+  margin: 24px;
+}
+.details-text {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+  line-height: 1.7;
+  margin: 0px;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .details-text {
+    font-size: 15px;
+  }
+}
